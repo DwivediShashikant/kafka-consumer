@@ -1,13 +1,14 @@
 # kafka-consumer
 
 A Clojure utility that demonstates how a kafka producer produces a message to a certain topic.
-This repo is a consumer and the messaged are pushed by [kafka-producer|https://github.com/DwivediShashikant/kafka-producer]
+This repo is a consumer and the messaged are pushed by [kafka-producer](https://github.com/DwivediShashikant/kafka-producer)
 
 ## Usage
 
-poll for the messages pushed by [kafka-producer|https://github.com/DwivediShashikant/kafka-producer] for a certain topic by using the command:
-`lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config <top-name>`
-example: `lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config test10`
+poll for the messages pushed by [kafka-producer](https://github.com/DwivediShashikant/kafka-producer) for a certain topic by using the command:
+```lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config <top-name>```
+example: 
+```lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config test10```
 
 ## License
 
