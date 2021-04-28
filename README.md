@@ -6,9 +6,13 @@ This repo is a consumer and the messaged are pushed by [kafka-producer](https://
 ## Usage
 
 poll for the messages pushed by [kafka-producer](https://github.com/DwivediShashikant/kafka-producer) for a certain topic by using the command:
-```lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config <top-name>```
+```clojure
+lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config <top-name>
+```
 example: 
-```lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config test10```
+```clojure
+lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config test10
+```
 
 ## License
 
